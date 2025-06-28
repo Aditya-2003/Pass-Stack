@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD MANAGER</title>
+    <link rel="stylesheet" href="styles.css">
+</head> 
+<body>
+    <div id="logo-container"><img id="logo" src="logo.png" alt="LOGO"></div>
+    <h1>Simple Password Manager</h1>
+    <p>For People Like Me Who Cannot Remember Passwords</p>
+    <h2>Your Passwords</h2>
+    <table>   
+         
+    </table>
+
+<h2>Enter New Passsword</h2>    
+<div class="form-container">
+    <form action="" method="POST">
+        <label for="platform">Enter Platform :</label>
+        <input type="text" id="platform" name="platform" class="f-in" >
+        <label for="username">Enter Username :</label>
+        <input type="text" id="username" name="username" class="f-in" required>
+        <label for="password">Enter Password :</label>
+        <input type="password" id="password" name="password" class="f-in" required>
+
+        <button class="btn" type="submit">Submit</button>
+    </form>
+</div>
+<div id="copy-notification" style="display: none;">Copied Successfully!!</div>
+
+<script src="script.js"></script>
+</body>
+</html>

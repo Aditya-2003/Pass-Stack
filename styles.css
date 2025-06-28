@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    display: flex;
+    background-color:black;
+    color:wheat;
+    padding: 6px;
+    font-size: 1.2rem;
+}
+.logo{ 
+    padding-left: 2rem;
+    padding-right: 7rem;
+}
+h1,h2{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+p{
+   text-align: center;
+   
+}
+li{
+    padding: 5px 10px;
+    list-style: none;
+    padding-right: 10px;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto; /* Centers the table */
+    /* Remove flex properties - tables don't need flex */
+}
+
+th, td {
+    padding: 10px;
+    height: 40px;
+    width: 120px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: wheat;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c82333;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 20rem;
+    border-radius: 2rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white; /* Add background */
+}
+
+label {
+    font-weight: bold;
+    margin: 5px 2px;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+     margin: 5px 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button{
+    width: 90px;
+
+    padding: 10px;
+    background-color: black;
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+form > button{
+   margin-top: 5px;
+}
+
+button:hover {
+    background-color: rgb(255, 0, 0);
+}
+form>button:hover{
+    background-color: rgb(31, 76, 255);
+}
+.copy-logo{
+    width: 0.6rem;  
+    position: relative;
+    bottom: 8px; 
+    margin: 0 4px;
+    color:rgb(0, 0, 233) 
+}
+.copy-logo:hover{
+    cursor: pointer; 
+    width: 0.7rem;   
+}
+#copy-notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  animation: fadeInOut 2.5s ease-in-out;
+}
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+td#pass{
+   font-weight: 800;
+}
+#logo{
+    width: 12rem;   
+}
+
